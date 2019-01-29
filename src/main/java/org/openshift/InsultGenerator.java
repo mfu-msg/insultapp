@@ -28,7 +28,7 @@ public class InsultGenerator {;
 						article = "a";
 					}
 
-					theInsult = String.format("V3: Thou art %s %s %s %s!", article,
+					theInsult = String.format("V4: Thou art %s %s %s %s!", article,
 						rs.getString("first"), rs.getString("second"), rs.getString("noun"));
 				}
 				rs.close();
